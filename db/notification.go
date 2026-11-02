@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"log"
 	"strings"
 	"time"
 
-	"github.com/Autumn-27/artex/notify"
+	"github.com/afterglow-labs/scopeweaver/notify"
 )
 
 // IM notification channel configuration and event layer. Delivery claiming and transitions are in

@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"strconv"
 )
 

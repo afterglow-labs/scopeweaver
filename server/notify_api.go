@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/notify"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/notify"
 )
 
 // Notification HTTP endpoints are all behind requireAuth in Handler, matching

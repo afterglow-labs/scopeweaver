@@ -3,13 +3,13 @@ package server
 import (
 	"encoding/json"
 	"errors"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"io"
 	"net/http"
 	"strings"
 	"unicode/utf8"
 
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/db"
 )
 
 const maxTaskTemplateRequestBytes = 512 << 10

@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/intercept"
-	"github.com/Autumn-27/artex/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/intercept"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
 	"github.com/Autumn-27/norma/llm"
 	actool "github.com/Autumn-27/norma/tool"
 )

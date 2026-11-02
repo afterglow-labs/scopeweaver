@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
 	"github.com/google/uuid"
 )
 

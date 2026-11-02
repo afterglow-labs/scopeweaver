@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/internal/dbtest"
-	"github.com/Autumn-27/artex/traffic"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/traffic"
 )
 
 func evidenceFixture(t *testing.T) (*Store, db.RecordFindingInput, string) {

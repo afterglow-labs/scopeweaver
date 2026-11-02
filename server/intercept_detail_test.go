@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/intercept"
-	"github.com/Autumn-27/artex/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/intercept"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
 )
 
 func TestInterceptDetailHTTP(t *testing.T) {

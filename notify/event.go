@@ -1,6 +1,6 @@
 package notify
 
-import "github.com/Autumn-27/artex/locale"
+import "github.com/afterglow-labs/scopeweaver/locale"
 
 // Snapshot defines the notification_events.snapshot JSONB contract. Finding transactions write it;
 // server delivery and filters read it. The notification domain owns these semantics while db only

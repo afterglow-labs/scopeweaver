@@ -3,15 +3,15 @@ package server
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
 
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/db"
 )
 
 // maxChatUpload caps a single chat-attachment upload request (memory + spill).

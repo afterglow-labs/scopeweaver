@@ -3,9 +3,9 @@ package server
 import (
 	"context"
 	"crypto/rand"
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/sidequestion"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/sidequestion"
 	"strconv"
 	"time"
 )

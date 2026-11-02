@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
 	"github.com/jackc/pgx/v5/pgconn"
 )
 

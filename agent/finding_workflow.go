@@ -2,9 +2,9 @@ package agent
 
 import (
 	"encoding/json"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/db"
 	actool "github.com/Autumn-27/norma/tool"
 )
 

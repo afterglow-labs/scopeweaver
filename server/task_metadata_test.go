@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
 )
 
 func TestTaskMetadataPatchReturnsRenameAndPin(t *testing.T) {

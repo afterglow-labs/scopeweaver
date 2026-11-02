@@ -3,14 +3,14 @@ package server
 import (
 	"context"
 	"encoding/json"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/mcphttp"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/mcphttp"
 )
 
 // Asset synchronization from ScopeSentry.

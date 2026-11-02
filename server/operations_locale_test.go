@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/internal/dbtest"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 func TestOperationsMCPValidationLanguages(t *testing.T) {

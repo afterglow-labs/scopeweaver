@@ -7,12 +7,12 @@ import (
 	"database/sql"
 	_ "embed"
 	"errors"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"net/url"
 	"strings"
 	"time"
 
-	"github.com/Autumn-27/artex/config"
+	"github.com/afterglow-labs/scopeweaver/config"
 	"github.com/jackc/pgx/v5/pgconn"
 	_ "github.com/jackc/pgx/v5/stdlib" // pgx database/sql driver ("pgx")
 )

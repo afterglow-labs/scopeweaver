@@ -3,7 +3,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/db"
 )
 
 // helper: intent/fact node

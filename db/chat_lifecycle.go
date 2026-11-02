@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 	"database/sql"
-	"github.com/Autumn-27/artex/chatstate"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
 )
 
 func (d *DB) CloseChatGate(ctx context.Context, ref chatstate.SessionRef) error {

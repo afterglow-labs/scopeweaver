@@ -1,6 +1,6 @@
 package agent
 
-import "github.com/Autumn-27/artex/locale"
+import "github.com/afterglow-labs/scopeweaver/locale"
 
 // Built-in templates are translated before interpolation; saved user templates are preserved.
 func init() {

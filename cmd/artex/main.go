@@ -8,7 +8,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"log"
 	"net/http"
 	"os"
@@ -18,10 +18,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/config"
-	"github.com/Autumn-27/artex/selfupdate"
-	"github.com/Autumn-27/artex/server"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/config"
+	"github.com/afterglow-labs/scopeweaver/selfupdate"
+	"github.com/afterglow-labs/scopeweaver/server"
 )
 
 // version is the build version, injected at release time via

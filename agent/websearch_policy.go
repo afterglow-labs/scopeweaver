@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	runtimeconfig "github.com/Autumn-27/artex/config"
-	"github.com/Autumn-27/artex/locale"
+	runtimeconfig "github.com/afterglow-labs/scopeweaver/config"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"github.com/Autumn-27/norma/agentcore"
 	actool "github.com/Autumn-27/norma/tool"
 )

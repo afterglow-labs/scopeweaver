@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 	"encoding/json"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"strconv"
 	"time"
 )

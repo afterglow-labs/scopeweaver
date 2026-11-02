@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 // Localize exact stock metadata on a response copy; edited values remain verbatim.

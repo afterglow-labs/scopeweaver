@@ -9,7 +9,7 @@ ScopeWeaver は [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX) のコミ�
 
 **2026-10-02** の ScopeWeaver の変更は、製品名、英語を既定・韓国語を選択可能とする画面とメッセージ、ドキュメントと同梱エージェントの指針、初期設定・ビルド・起動・更新・パスワードリセットのプロンプト、レポートとエージェントの言語処理、配布物の命名を対象にしています。実行ファイルは `scopeweaver`（Windows は `scopeweaver.exe`）、アーカイブ名は `scopeweaver-<version>-<os>-<arch>.zip` です。Docker Compose は、チェックアウトしたソースをローカルでビルドします。設定済みのリリースワークフローは、このリポジトリと GHCR を対象にします。
 
-元の `LICENSE` は変更せず保持しています。元の作者、貢献者への謝辞、上流の変更履歴の帰属は ARTEX のままです。Go モジュール `github.com/Autumn-27/artex`、ソースのエントリーポイント `./cmd/artex`、`ARTEX_*` の設定契約、`artex` のデータベース既定値、`ARTEX` のログインユーザー名は、互換性のために保持します。
+元の `LICENSE` は変更せず保持しています。元の作者、貢献者への謝辞、上流の変更履歴の帰属は ARTEX のままです。元の Go モジュールパスは `github.com/Autumn-27/artex` で、現在のチェックアウトでは `github.com/afterglow-labs/scopeweaver` を使用します。ソースのエントリーポイント `./cmd/artex`、`ARTEX_*` の設定契約、`artex` のデータベース既定値、`ARTEX` のログインユーザー名は、互換性のために保持します。
 
 この変更日はリリースタグではなく、バイナリやコンテナーイメージの公開を主張するものではありません。`sidequestion/` の過去の検証資料は上流の実行を記述し、新しい ScopeWeaver の検証記録ではありません。過去の JSON の翻訳では、技術的識別子と測定値を保持し、説明文が翻訳であることを示します。
 

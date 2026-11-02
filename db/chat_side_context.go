@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/sidequestion"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/sidequestion"
 	"strings"
 )
 

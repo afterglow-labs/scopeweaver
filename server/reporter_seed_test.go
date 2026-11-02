@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/internal/dbtest"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 func reporterSeedFixture(t *testing.T) (*Server, *db.DB) {

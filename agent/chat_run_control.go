@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/db"
 	"github.com/Autumn-27/norma/agentcore"
 	"github.com/Autumn-27/norma/llm"
 	"github.com/Autumn-27/norma/transcript"

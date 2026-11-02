@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 const settingLanguage = "language"

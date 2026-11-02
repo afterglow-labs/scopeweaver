@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/db"
 )
 
 // Without configuration, all resolved values must remain zero, preserving SDK/task_llm built-in defaults

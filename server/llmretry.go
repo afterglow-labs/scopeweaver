@@ -3,8 +3,8 @@ package server
 import (
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/db"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/db"
 )
 
 // Server-side retry policy resolution; see the LLM retry design. Of the five layers:

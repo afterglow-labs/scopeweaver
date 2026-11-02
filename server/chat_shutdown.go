@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 	"errors"
-	"github.com/Autumn-27/artex/sidequestion"
+	"github.com/afterglow-labs/scopeweaver/sidequestion"
 )
 
 // DrainChats refuses further dispatches and waits for admitted background chats,

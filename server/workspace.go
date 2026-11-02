@@ -2,7 +2,7 @@ package server
 
 import (
 	"bytes"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"io"
 	"mime/multipart"
 	"net/http"

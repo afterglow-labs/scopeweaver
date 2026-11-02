@@ -4,8 +4,8 @@ import (
 	"context"
 	"iter"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/intercept"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/intercept"
 	"github.com/Autumn-27/norma/llm"
 )
 
