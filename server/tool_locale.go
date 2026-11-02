@@ -2,10 +2,10 @@ package server
 
 import (
 	"encoding/json"
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/locale"
-	"github.com/Autumn-27/artex/traffic"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/locale"
+	"github.com/afterglow-labs/scopeweaver/traffic"
 	actool "github.com/Autumn-27/norma/tool"
 )
 

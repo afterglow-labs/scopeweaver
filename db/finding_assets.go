@@ -2,7 +2,7 @@ package db
 
 import (
 	"encoding/json"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"sort"
 	"strconv"
 	"strings"

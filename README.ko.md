@@ -214,8 +214,7 @@ CGO_ENABLED=0 go build -tags embedui -o scopeweaver ./cmd/artex
 ./start.sh
 ```
 
-> 업스트림 호환을 위해 빌드 소스 경로는 `./cmd/artex`, Go 모듈은 `github.com/Autumn-27/artex`로
-> 유지합니다. 출력 바이너리 이름만 `scopeweaver`입니다.
+> 빌드 소스 경로 `./cmd/artex`는 호환성을 위해 유지합니다. Go 모듈은 `github.com/afterglow-labs/scopeweaver`이며 출력 바이너리는 `scopeweaver`입니다.
 
 ### 방법 5: 크로스 플랫폼 릴리스 아카이브 빌드
 
@@ -637,7 +636,7 @@ ScopeWeaver는 [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX)의 업스�
 파생되었습니다. 이 독립 파생 프로젝트의 변경 사항:
 
 - **제품 이름**: 사용자에게 보이는 문서·스크립트·배포에서 "ARTEX" → "ScopeWeaver". Go
-  모듈(`github.com/Autumn-27/artex`), 빌드 소스 경로(`./cmd/artex`), `ARTEX_*` 설정/환경 키,
+  모듈은 `github.com/afterglow-labs/scopeweaver`로 변경했습니다. 빌드 소스 경로(`./cmd/artex`), `ARTEX_*` 설정/환경 키,
   `artex` 데이터베이스 기본값은 호환을 위해 **유지**합니다.
 - **문서 언어**: 영어가 기본이며, 유지 관리하는 사용자·기여자 안내에는 한국어, 간체 중국어, 번체 중국어,
   일본어, 스페인어 번역이 있습니다. 각 안내의 언어 링크를 이용하세요.

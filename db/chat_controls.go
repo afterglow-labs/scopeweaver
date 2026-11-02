@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 func chatID() string {

@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"time"
 )
 

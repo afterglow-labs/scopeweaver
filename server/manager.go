@@ -15,13 +15,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	pgdb "github.com/Autumn-27/artex/db"
-	"github.com/Autumn-27/artex/enrich"
-	"github.com/Autumn-27/artex/guard"
-	"github.com/Autumn-27/artex/intercept"
-	"github.com/Autumn-27/artex/locale"
-	"github.com/Autumn-27/artex/traffic"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	pgdb "github.com/afterglow-labs/scopeweaver/db"
+	"github.com/afterglow-labs/scopeweaver/enrich"
+	"github.com/afterglow-labs/scopeweaver/guard"
+	"github.com/afterglow-labs/scopeweaver/intercept"
+	"github.com/afterglow-labs/scopeweaver/locale"
+	"github.com/afterglow-labs/scopeweaver/traffic"
 	actool "github.com/Autumn-27/norma/tool"
 )
 

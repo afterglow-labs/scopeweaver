@@ -3,7 +3,7 @@ package agent
 import (
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 // Hashes identify exact upstream stock templates without storing or rewriting

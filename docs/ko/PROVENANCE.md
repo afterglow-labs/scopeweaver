@@ -6,7 +6,7 @@ ScopeWeaver는 [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX)의 커밋 `
 
 **2026-10-02** ScopeWeaver 변경 범위는 제품 이름, 영어 기본/한국어 선택 화면과 메시지, 문서와 내장 에이전트 지침, 설치/빌드/시작/업데이트/비밀번호 재설정 안내, 보고서 및 에이전트 언어 처리, 배포 이름입니다. 실행 파일은 `scopeweaver`(Windows는 `scopeweaver.exe`)이며 압축 파일 이름은 `scopeweaver-<version>-<os>-<arch>.zip`입니다. Docker Compose는 현재 소스를 로컬에서 빌드합니다. 릴리스 워크플로는 이 저장소와 GHCR을 대상으로 설정되어 있습니다.
 
-원본 `LICENSE`는 변경 없이 유지합니다. 원저자, 기여자 감사, 원본 변경 기록은 ARTEX의 기록으로 명시합니다. 호환성을 위해 Go 모듈 `github.com/Autumn-27/artex`, 진입 소스 `./cmd/artex`, `ARTEX_*` 설정, `artex` 데이터베이스 기본값, `ARTEX` 로그인 이름을 유지합니다.
+원본 `LICENSE`는 변경 없이 유지합니다. 원저자, 기여자 감사, 원본 변경 기록은 ARTEX의 기록으로 명시합니다. 원래 Go 모듈 경로는 `github.com/Autumn-27/artex`였으며 현재 체크아웃은 `github.com/afterglow-labs/scopeweaver`를 사용합니다. 진입 소스 `./cmd/artex`, `ARTEX_*` 설정, `artex` 데이터베이스 기본값, `ARTEX` 로그인 이름은 호환성을 위해 유지합니다.
 
 이 변경 날짜는 릴리스 태그가 아니며 바이너리 릴리스나 컨테이너 이미지 공개를 뜻하지 않습니다. `sidequestion/`의 과거 검증 문서는 원본 실행 기록이며 새 ScopeWeaver 검증 결과가 아닙니다. 번역된 과거 JSON은 기술 식별자와 측정값을 유지하고 서술 번역임을 표시합니다.
 

@@ -219,8 +219,7 @@ CGO_ENABLED=0 go build -tags embedui -o scopeweaver ./cmd/artex
 ./start.sh
 ```
 
-> The build source path stays `./cmd/artex` and the Go module stays `github.com/Autumn-27/artex`
-> for compatibility with upstream. Only the output binary is named `scopeweaver`.
+> The build source path stays `./cmd/artex` for compatibility. The Go module is `github.com/afterglow-labs/scopeweaver`, and the output binary is `scopeweaver`.
 
 ### Option 5: build cross-platform release archives
 
@@ -647,7 +646,7 @@ ScopeWeaver is derived from [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX
 `160fe13`. Changes in this standalone derivative:
 
 - **Product name**: "ARTEX" → "ScopeWeaver" in the user-visible documentation, scripts, and
-  distribution. The Go module (`github.com/Autumn-27/artex`), the build source path (`./cmd/artex`),
+  distribution. The Go module is `github.com/afterglow-labs/scopeweaver`; the build source path (`./cmd/artex`),
   the `ARTEX_*` config/env keys, and the `artex` database defaults are **kept** for compatibility.
 - **Documentation language**: English is the default; maintained user/contributor guides have Korean,
   Simplified Chinese, Traditional Chinese, Japanese and Spanish counterparts linked from each guide.

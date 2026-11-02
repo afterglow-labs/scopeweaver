@@ -10,7 +10,7 @@ ScopeWeaver 為 [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX) 的獨立�
 
 **2026-10-02** 的 ScopeWeaver 修改包括產品名稱、英文預設／韓文可選的介面與訊息、文件與內附代理程式指引、設定／建置／啟動／更新／重設密碼提示、報告與代理程式語言處理及發行命名。執行檔為 `scopeweaver`（Windows 為 `scopeweaver.exe`）；封存檔命名為 `scopeweaver-<version>-<os>-<arch>.zip`。Docker Compose 在本機建置簽出的原始碼。發行工作流程以本儲存庫與 GHCR 為目標。
 
-原始 `LICENSE` 保持不變。原作者、貢獻者致謝與上游變更歷史仍歸屬 ARTEX。Go 模組 `github.com/Autumn-27/artex`、來源入口 `./cmd/artex`、`ARTEX_*` 設定契約、`artex` 資料庫預設值與 `ARTEX` 登入名稱均為相容性而保留。
+原始 `LICENSE` 保持不變。原作者、貢獻者致謝與上游變更歷史仍歸屬 ARTEX。原 Go 模組路徑為 `github.com/Autumn-27/artex`；目前簽出使用 `github.com/afterglow-labs/scopeweaver`。來源入口 `./cmd/artex`、`ARTEX_*` 設定契約、`artex` 資料庫預設值與 `ARTEX` 登入名稱仍為相容性而保留。
 
 此修改日期並非版本標籤，也不表示已發布二進位版本或容器映像檔。`sidequestion/` 下的歷史驗證文件描述上游執行，並非新的 ScopeWeaver 驗證收據。歷史 JSON 翻譯會保留技術識別碼與測量值，並標示敘述文字為譯文。
 

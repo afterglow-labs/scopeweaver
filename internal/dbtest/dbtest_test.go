@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Autumn-27/artex/config"
+	"github.com/afterglow-labs/scopeweaver/config"
 )
 
 // withLiveDSN temporarily overrides the package-level liveDSN (captured at init)

@@ -3,7 +3,7 @@ package sidequestion
 import (
 	"context"
 	"errors"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"strings"
 
 	"github.com/Autumn-27/norma/llm"

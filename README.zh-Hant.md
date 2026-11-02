@@ -185,7 +185,7 @@ CGO_ENABLED=0 go build -tags embedui -o scopeweaver ./cmd/artex
 
 
 
-> 為相容上游，建置來源路徑保留為 `./cmd/artex`，Go 模組保留為 `github.com/Autumn-27/artex`。只有輸出執行檔命名為 `scopeweaver`。
+> 建置來源路徑 `./cmd/artex` 繼續保留以相容原有佈局。Go 模組為 `github.com/afterglow-labs/scopeweaver`，輸出執行檔為 `scopeweaver`。
 
 <a id="option-5-build-cross-platform-release-archives"></a>
 
@@ -613,7 +613,7 @@ flowchart TB
 
 ScopeWeaver 衍生自 [Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX) 上游提交 `160fe13`。此獨立衍生專案的變更包括：
 
-- **產品名稱**：使用者可見的文件、指令碼與發行品由 ARTEX 改為 ScopeWeaver。Go 模組（`github.com/Autumn-27/artex`）、建置來源路徑（`./cmd/artex`）、`ARTEX_*` 設定／環境鍵與 `artex` 資料庫預設值均**保留**以相容上游。
+- **產品名稱**：使用者可見的文件、指令碼與發行品由 ARTEX 改為 ScopeWeaver。Go 模組已改為 `github.com/afterglow-labs/scopeweaver`；建置來源路徑（`./cmd/artex`）、`ARTEX_*` 設定／環境鍵與 `artex` 資料庫預設值仍**保留**以相容原有佈局。
 - **文件語言**：預設英文，並提供韓文、簡體中文、繁體中文、日文與西班牙文對應文件，請見上方語言導覽及[文件索引](docs/zh-Hant/README.md)。
 - **指令碼語言**：設定／建置／啟動／更新／重設密碼／開發提示預設為英文，可透過 `SCOPEWEAVER_LANGUAGE`（亦接受 `ARTEX_LANGUAGE`）選擇 `en`、`ko`、`zh-Hans`、`zh-Hant`、`ja` 或 `es`。不使用網路翻譯。
 - **發行**：輸出執行檔為 `scopeweaver`，封存檔為 `scopeweaver-<version>-<os>-<arch>.zip`，儲存庫為 `https://github.com/cskwork/scopeweaver`，容器映像檔使用此儲存庫的 GHCR，不使用上游 Docker Hub 映像檔 `autumn27/artex`。

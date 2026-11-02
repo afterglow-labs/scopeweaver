@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/chatstate"
-	"github.com/Autumn-27/artex/locale"
-	"github.com/Autumn-27/artex/sidequestion"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
+	"github.com/afterglow-labs/scopeweaver/locale"
+	"github.com/afterglow-labs/scopeweaver/sidequestion"
 	"github.com/Autumn-27/norma/llm"
 )
 

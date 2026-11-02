@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"log"
 	"net/http"
 	"runtime"
 	"sync"
 	"time"
 
-	"github.com/Autumn-27/artex/selfupdate"
+	"github.com/afterglow-labs/scopeweaver/selfupdate"
 )
 
 // HTTP endpoints for one-click updates. Download, verification, and replacement

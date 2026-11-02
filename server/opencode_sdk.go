@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Autumn-27/artex/agent"
-	"github.com/Autumn-27/artex/locale"
-	"github.com/Autumn-27/artex/opencodesdk"
+	"github.com/afterglow-labs/scopeweaver/agent"
+	"github.com/afterglow-labs/scopeweaver/locale"
+	"github.com/afterglow-labs/scopeweaver/opencodesdk"
 )
 
 // Bridge tokens cannot cross formats or normalized endpoint paths, including SDK-to-SDK edits.

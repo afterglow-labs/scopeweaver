@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Autumn-27/artex/internal/dbtest"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/internal/dbtest"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"github.com/jackc/pgx/v5"
 	"golang.org/x/crypto/bcrypt"
 )

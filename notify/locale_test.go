@@ -19,7 +19,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 )
 
 func localizedMessage(lang locale.Lang) Message {

@@ -2,7 +2,7 @@ package server
 
 import (
 	"crypto/rand"
-	"github.com/Autumn-27/artex/locale"
+	"github.com/afterglow-labs/scopeweaver/locale"
 	"log"
 	"math/big"
 	"net/http"

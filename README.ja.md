@@ -185,8 +185,7 @@ CGO_ENABLED=0 go build -tags embedui -o scopeweaver ./cmd/artex
 ./start.sh
 ```
 
-> 上流との互換性のため、ビルド元は `./cmd/artex`、Go モジュールは `github.com/Autumn-27/artex`
-> のままです。出力バイナリの名前のみ `scopeweaver` にします。
+> ビルド元 `./cmd/artex` は互換性のため維持します。Go モジュールは `github.com/afterglow-labs/scopeweaver`、出力バイナリは `scopeweaver` です。
 
 <a id="option-5-build-cross-platform-release-archives"></a>
 ### 方法 5: 複数プラットフォームのリリースアーカイブを作成
@@ -562,7 +561,7 @@ flowchart TB
 ScopeWeaver は、[Autumn-27/ARTEX](https://github.com/Autumn-27/ARTEX) の上流コミット `160fe13` を基にしています。この独立した派生物の変更:
 
 - **製品名**: ユーザーに見えるドキュメント、スクリプト、配布物で「ARTEX」を「ScopeWeaver」に
-  変更しました。Go モジュール（`github.com/Autumn-27/artex`）、ビルド元（`./cmd/artex`）、`ARTEX_*` の設定・環境変数、`artex` のデータベース既定値は、互換性のため**保持**します。
+  変更しました。Go モジュールは `github.com/afterglow-labs/scopeweaver` に変更しました。ビルド元（`./cmd/artex`）、`ARTEX_*` の設定・環境変数、`artex` のデータベース既定値は互換性のため**保持**します。
 - **ドキュメントの言語**: 英語が既定です。保守する利用者・貢献者向けガイドには、韓国語、
   簡体字中国語、繁体字中国語、日本語、スペイン語の対応版を用意し、各ガイドからリンクします。
 - **スクリプトの言語**: 初期設定・ビルド・起動・更新・パスワードリセット・開発のプロンプトは英語が既定です。

@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/Autumn-27/artex/chatstate"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
 )
 
 // WithUnpublishedChatTranscript reconciles even an ambiguous publication error

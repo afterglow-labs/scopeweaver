@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Autumn-27/artex/chatstate"
+	"github.com/afterglow-labs/scopeweaver/chatstate"
 )
 
 func TestChatInputPatchAttachmentManifest(t *testing.T) {
